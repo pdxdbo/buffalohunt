@@ -35731,8 +35731,8 @@ var Game = function () {
         if (!this.stage.hud.hasOwnProperty('score')) {
           this.stage.hud.createTextBox('score', {
             style: {
-              fontFamily: 'Press Start 2P',
-              fontSize: '12px',
+              fontFamily: 'Arial',
+              fontSize: '18px',
               align: 'left',
               fill: 'white'
             },
@@ -35775,8 +35775,8 @@ var Game = function () {
         if (!this.stage.hud.hasOwnProperty('waveStatus')) {
           this.stage.hud.createTextBox('waveStatus', {
             style: {
-              fontFamily: 'Press Start 2P',
-              fontSize: '12px',
+              fontFamily: 'Arial',
+              fontSize: '18px',
               align: 'left',
               fill: 'white'
             },
@@ -35789,7 +35789,7 @@ var Game = function () {
         }
 
         if (!isNaN(val) && val > 0) {
-          this.stage.hud.waveStatus = 'Wave ' + val + '/' + this.level.waves;
+          this.stage.hud.waveStatus = 'Wave ' + val + ' of ' + this.level.waves;
         } else {
           this.stage.hud.waveStatus = '';
         }
@@ -35820,10 +35820,9 @@ var Game = function () {
         if (!this.stage.hud.hasOwnProperty('gameStatus')) {
           this.stage.hud.createTextBox('gameStatus', {
             style: {
-              fontFamily: 'Press Start 2P',
-              fontSize: '28px',
-              lineHeight: '4',
-              align: 'center',
+              fontFamily: 'Arial',
+              fontSize: '40px',
+              align: 'left',
               fill: 'white'
             },
             location: _Stage2.default.gameStatusBoxLocation()
@@ -36524,8 +36523,8 @@ var Hud = function (_Container) {
       // set defaults, and allow them to be overwritten
       var options = (0, _object.assign)({
         style: {
-          fontFamily: 'Press Start 2P',
-          fontSize: '16px',
+          fontFamily: 'Arial',
+          fontSize: '18px',
           align: 'left',
           fill: 'white'
         },
@@ -45428,7 +45427,7 @@ module.exports = {"src":["audio.ogg","audio.mp3"],"sprite":{"barkDucks":[0,2403.
 /* 281 */
 /***/ (function(module, exports) {
 
-module.exports = {"normal":[{"id":1,"title":"Welcome to\nEugene","waves":3,"ducks":2,"pointsPerDuck":100,"speed":5,"bullets":3,"time":13},{"id":2,"title":"Level 2","waves":5,"ducks":3,"pointsPerDuck":100,"speed":6,"bullets":4,"time":10},{"id":3,"title":"Level 3","waves":6,"ducks":3,"pointsPerDuck":100,"speed":7,"bullets":4,"time":10},{"id":4,"title":"Level 4","waves":3,"ducks":10,"pointsPerDuck":100,"speed":7,"bullets":11,"time":18},{"id":5,"title":"Level 5","waves":5,"ducks":2,"pointsPerDuck":100,"speed":8,"bullets":3,"time":13},{"id":6,"title":"Level 6","waves":1,"ducks":15,"pointsPerDuck":100,"speed":8,"bullets":15,"time":25}]}
+module.exports = {"normal":[{"id":1,"title":"Level 1","waves":3,"ducks":2,"pointsPerDuck":100,"speed":5,"bullets":3,"time":13},{"id":2,"title":"Level 2","waves":5,"ducks":3,"pointsPerDuck":100,"speed":6,"bullets":4,"time":10},{"id":3,"title":"Level 3","waves":6,"ducks":3,"pointsPerDuck":100,"speed":7,"bullets":4,"time":10},{"id":4,"title":"Level 4","waves":3,"ducks":10,"pointsPerDuck":100,"speed":7,"bullets":11,"time":18},{"id":5,"title":"Level 5","waves":5,"ducks":2,"pointsPerDuck":100,"speed":8,"bullets":3,"time":13},{"id":6,"title":"Level 6","waves":1,"ducks":15,"pointsPerDuck":100,"speed":8,"bullets":15,"time":25}]}
 
 /***/ }),
 /* 282 */
