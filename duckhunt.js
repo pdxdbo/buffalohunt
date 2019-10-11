@@ -31400,7 +31400,7 @@ var defaultStyle = {
     fill: 'black',
     fillGradientType: _const.TEXT_GRADIENT.LINEAR_VERTICAL,
     fillGradientStops: [],
-    fontFamily: 'Arial',
+    fontFamily: 'Press Start 2P',
     fontSize: 26,
     fontStyle: 'normal',
     fontVariant: 'normal',
